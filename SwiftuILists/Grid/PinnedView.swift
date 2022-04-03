@@ -15,19 +15,34 @@ struct PinnedView: View {
         GridItem(.flexible(minimum: 100)),
     ]
     
+    private func headerView(_ index: Int) -> some View {
+        Text("Section \(index)")
+            .font(.title)
+            .frame(maxWidth: .infinity)
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+    }
+    
     var body: some View {
-        LazyVGrid(columns: columns, pinnedViews: [.sectionHeaders]) {
-            ForEach(1..<11) { section in
-                Section(header: Text("Section \(section)")) {
-                    ForEach(1..<Int.random(in: 5...10)){ index in
-                        Text("Item \(index)")
-                            .padding()
-                            .background(Color.green)
-                            .foregroundColor(.white)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns, pinnedViews: [.sectionHeaders]) {
+                    ForEach(1..<11) { section in
+                        Section(header: headerView(section)) {
+                            ForEach(1..<Int.random(in: 5...10)){ index in
+                                Text("Item \(index)")
+                                    .padding()
+                                    .background(Color.green)
+                                    .foregroundColor(.white)
+                            }
+                        }
                     }
                 }
             }
+            .navigationTitle("Pinned Views Demo")
         }
+
     }
 }
 

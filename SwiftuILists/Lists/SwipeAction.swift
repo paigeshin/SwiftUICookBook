@@ -57,7 +57,6 @@ struct SwipeAction: View {
                     .tint(.teal)
                 }
             }
-
             .listStyle(.plain)
             .navigationTitle("Places")
         }

@@ -20,7 +20,7 @@ struct ListWithIndices: View {
     
     var body: some View {
         // List with Range Operator
-        List(friends.indices) { index in
+        List(friends.indices, id: \.self) { index in
             let friend = friends[index]
             HStack {
                 Text("\(index + 1)")

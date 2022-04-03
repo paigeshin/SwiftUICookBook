@@ -13,7 +13,7 @@ struct AutoScrollList: View {
             VStack {
                 Button("Scroll to 100") {
                     withAnimation {
-                        proxy.scrollTo(350)
+                        proxy.scrollTo(150)
                     }
                 }
                 List(1...500, id: \.self) { index in
@@ -22,6 +22,7 @@ struct AutoScrollList: View {
                 }
             }
         }
+        .colorScheme(.light)
     }
 }
 
@@ -30,3 +31,4 @@ struct AutoScrollList_Previews: PreviewProvider {
         AutoScrollList()
     }
 }
+

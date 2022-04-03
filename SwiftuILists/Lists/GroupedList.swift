@@ -7,35 +7,35 @@
 
 import SwiftUI
 
-fileprivate struct Post: Identifiable {
+fileprivate struct Item: Identifiable {
     let id = UUID()
     let title: String
-    let comments: [Comment]
+    let subitems: [SubItem]
 }
 
-fileprivate struct Comment: Identifiable {
+fileprivate struct SubItem: Identifiable {
     let id = UUID()
     let title: String
 }
 
 struct GroupedList: View {
     
-    fileprivate let posts = [
-        Post(title: "Post #1", comments: [
-            Comment(title: "Comment 1 for Post 1"),
-            Comment(title: "Comment 2 for Post 1"),
+    fileprivate let settings = [
+        Item(title: "Item #1", subitems: [
+            SubItem(title: "Subitem 1 for Item 1"),
+            SubItem(title: "Subitem 2 for Item 1"),
         ]),
-        Post(title: "Post #2", comments: [
-            Comment(title: "Comment 1 for Post 2"),
-            Comment(title: "Comment 2 for Post 2"),
+        Item(title: "Item #2", subitems: [
+            SubItem(title: "Subitem 1 for Item 2"),
+            SubItem(title: "Subitem 2 for Item 2"),
         ])
     ]
     
     var body: some View {
         List {
-            ForEach(posts) { post in
+            ForEach(settings) { post in
                 Section(header: Text(post.title)) {
-                    ForEach(post.comments) { comment in
+                    ForEach(post.subitems) { comment in
                         Text(comment.title)
                     }
                 }
