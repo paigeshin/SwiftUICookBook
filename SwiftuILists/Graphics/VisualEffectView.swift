@@ -38,9 +38,9 @@ struct DisplayVisualEffectView: View {
             Text("SKY")
                 .font(.largeTitle)
                 .foregroundColor(.white)
-                .frame(maxWidth: 300, maxHeight: 300)
+//                .frame(maxWidth: 300, maxHeight: 300)
                 // background materials => see through
-                .background(.ultraThinMaterial) 
+//                .background(.ultraThinMaterial)
  
         }
         

@@ -12,6 +12,7 @@ struct SwiftuIListsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .colorScheme(.light)
         }
     }
 }

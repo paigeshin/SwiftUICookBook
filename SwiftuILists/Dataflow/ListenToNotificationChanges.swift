@@ -25,8 +25,8 @@ struct ListenToNotificationChanges: View {
             }
             
             Text(newTask ?? "no task received")
-                .onReceive(NotificationCenter.default.publisher(for: Notification.Name.taskAddedNotification)) {
-                    newTask = $0.object as? String
+                .onReceive(NotificationCenter.default.publisher(for: Notification.Name.taskAddedNotification)) { object in
+                    newTask = object as? String
                 }
             
         }

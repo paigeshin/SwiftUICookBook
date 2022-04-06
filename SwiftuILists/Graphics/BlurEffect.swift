@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct BlurEffect: View {
     var body: some View {
         ZStack {

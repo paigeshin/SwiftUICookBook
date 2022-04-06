@@ -16,7 +16,6 @@ struct RoundedCorerWithClipShape: View {
             }
             .padding()
             .background(Color.blue)
-//            .clipShape(Circle())
             .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
             // .continous => smooth rounded corner
             .foregroundColor(.white)

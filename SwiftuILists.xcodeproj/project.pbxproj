@@ -17,6 +17,9 @@
 		6C5676AE27F41B2F006CD310 /* MyHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676AD27F41B2F006CD310 /* MyHeroAnimation.swift */; };
 		6C5676B027F41C71006CD310 /* TagViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676AF27F41C71006CD310 /* TagViews.swift */; };
 		6C5676B327F42047006CD310 /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676B227F42047006CD310 /* MagnifyView.swift */; };
+		6C8893D827FA06D00081AD2F /* SheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8893D727FA06D00081AD2F /* SheetSample.swift */; };
+		6C8893DA27FA07990081AD2F /* MultipleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8893D927FA07990081AD2F /* MultipleSheet.swift */; };
+		6C8893DC27FA08800081AD2F /* DifferentModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8893DB27FA08800081AD2F /* DifferentModalSize.swift */; };
 		6C95ABEB27F555C900D24D58 /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95ABEA27F555C900D24D58 /* RotateView.swift */; };
 		6C95ABEF27F5566E00D24D58 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95ABEE27F5566E00D24D58 /* DragView.swift */; };
 		6C95ABF127F5580B00D24D58 /* ThreeDimensionalRotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95ABF027F5580B00D24D58 /* ThreeDimensionalRotationEffect.swift */; };
@@ -31,6 +34,17 @@
 		6C98D53627F960BE008BA017 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D53527F960BE008BA017 /* RatingView.swift */; };
 		6C98D53827F961E4008BA017 /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D53727F961E4008BA017 /* BlurEffect.swift */; };
 		6C98D53A27F96255008BA017 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D53927F96255008BA017 /* VisualEffectView.swift */; };
+		6C98D53D27F9632B008BA017 /* NavigationWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D53C27F9632B008BA017 /* NavigationWithButton.swift */; };
+		6C98D53F27F9638B008BA017 /* PassDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D53E27F9638B008BA017 /* PassDataView.swift */; };
+		6C98D54127F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54027F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift */; };
+		6C98D54327F96D93008BA017 /* AddBarItemButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54227F96D93008BA017 /* AddBarItemButtons.swift */; };
+		6C98D54527F96F08008BA017 /* NavigationTitleWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54427F96F08008BA017 /* NavigationTitleWithImage.swift */; };
+		6C98D54727F96F45008BA017 /* ColorNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54627F96F45008BA017 /* ColorNavigationBar.swift */; };
+		6C98D54927F96FD6008BA017 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54827F96FD6008BA017 /* Pagination.swift */; };
+		6C98D54C27F97012008BA017 /* MyPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54B27F97012008BA017 /* MyPreview.swift */; };
+		6C98D54E27F97E46008BA017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54D27F97E46008BA017 /* ViewController.swift */; };
+		6C98D55027F9A85F008BA017 /* MySampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98D54F27F9A85F008BA017 /* MySampleView.swift */; };
+		6CA0887627F9B51500D1195A /* SpecificCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0887527F9B51500D1195A /* SpecificCornerRadius.swift */; };
 		6CBEEAD027F9489100B88F91 /* OptionalBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEEACF27F9489100B88F91 /* OptionalBindingView.swift */; };
 		6CBEEAD227F9490100B88F91 /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEEAD127F9490100B88F91 /* OnChangeView.swift */; };
 		6CBEEAD427F9499A00B88F91 /* ListenToNotificationChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEEAD327F9499A00B88F91 /* ListenToNotificationChanges.swift */; };
@@ -61,6 +75,11 @@
 		6CE81D1627F1B498006BFB6F /* CheckBoxList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE81D1527F1B498006BFB6F /* CheckBoxList.swift */; };
 		6CE81D1827F1B5AB006BFB6F /* RadioButtonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE81D1727F1B5AB006BFB6F /* RadioButtonList.swift */; };
 		6CE81D1D27F1B886006BFB6F /* PinnedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE81D1C27F1B886006BFB6F /* PinnedView.swift */; };
+		6CECF64527FE37C0002D7AE4 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64427FE37C0002D7AE4 /* ExampleViewController.swift */; };
+		6CECF64827FE3BB1002D7AE4 /* BasicPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64727FE3BB1002D7AE4 /* BasicPickerView.swift */; };
+		6CECF64A27FE3C1E002D7AE4 /* MultiColumnPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64927FE3C1E002D7AE4 /* MultiColumnPicker.swift */; };
+		6CECF64C27FE3E92002D7AE4 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64B27FE3E92002D7AE4 /* SegmentedControlView.swift */; };
+		6CECF64E27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64D27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +93,9 @@
 		6C5676AD27F41B2F006CD310 /* MyHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeroAnimation.swift; sourceTree = "<group>"; };
 		6C5676AF27F41C71006CD310 /* TagViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViews.swift; sourceTree = "<group>"; };
 		6C5676B227F42047006CD310 /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
+		6C8893D727FA06D00081AD2F /* SheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSample.swift; sourceTree = "<group>"; };
+		6C8893D927FA07990081AD2F /* MultipleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheet.swift; sourceTree = "<group>"; };
+		6C8893DB27FA08800081AD2F /* DifferentModalSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentModalSize.swift; sourceTree = "<group>"; };
 		6C95ABEA27F555C900D24D58 /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		6C95ABEE27F5566E00D24D58 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		6C95ABF027F5580B00D24D58 /* ThreeDimensionalRotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDimensionalRotationEffect.swift; sourceTree = "<group>"; };
@@ -88,6 +110,17 @@
 		6C98D53527F960BE008BA017 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		6C98D53727F961E4008BA017 /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
 		6C98D53927F96255008BA017 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		6C98D53C27F9632B008BA017 /* NavigationWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithButton.swift; sourceTree = "<group>"; };
+		6C98D53E27F9638B008BA017 /* PassDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataView.swift; sourceTree = "<group>"; };
+		6C98D54027F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyPerformNavigation.swift; sourceTree = "<group>"; };
+		6C98D54227F96D93008BA017 /* AddBarItemButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBarItemButtons.swift; sourceTree = "<group>"; };
+		6C98D54427F96F08008BA017 /* NavigationTitleWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleWithImage.swift; sourceTree = "<group>"; };
+		6C98D54627F96F45008BA017 /* ColorNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNavigationBar.swift; sourceTree = "<group>"; };
+		6C98D54827F96FD6008BA017 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		6C98D54B27F97012008BA017 /* MyPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPreview.swift; sourceTree = "<group>"; };
+		6C98D54D27F97E46008BA017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C98D54F27F9A85F008BA017 /* MySampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleView.swift; sourceTree = "<group>"; };
+		6CA0887527F9B51500D1195A /* SpecificCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCornerRadius.swift; sourceTree = "<group>"; };
 		6CBEEACF27F9489100B88F91 /* OptionalBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingView.swift; sourceTree = "<group>"; };
 		6CBEEAD127F9490100B88F91 /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
 		6CBEEAD327F9499A00B88F91 /* ListenToNotificationChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToNotificationChanges.swift; sourceTree = "<group>"; };
@@ -119,6 +152,11 @@
 		6CE81D1527F1B498006BFB6F /* CheckBoxList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxList.swift; sourceTree = "<group>"; };
 		6CE81D1727F1B5AB006BFB6F /* RadioButtonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonList.swift; sourceTree = "<group>"; };
 		6CE81D1C27F1B886006BFB6F /* PinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedView.swift; sourceTree = "<group>"; };
+		6CECF64427FE37C0002D7AE4 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		6CECF64727FE3BB1002D7AE4 /* BasicPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPickerView.swift; sourceTree = "<group>"; };
+		6CECF64927FE3C1E002D7AE4 /* MultiColumnPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnPicker.swift; sourceTree = "<group>"; };
+		6CECF64B27FE3E92002D7AE4 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		6CECF64D27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlWithEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +192,16 @@
 			path = Gestures;
 			sourceTree = "<group>";
 		};
+		6C8893D627FA06B90081AD2F /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				6C8893D727FA06D00081AD2F /* SheetSample.swift */,
+				6C8893D927FA07990081AD2F /* MultipleSheet.swift */,
+				6C8893DB27FA08800081AD2F /* DifferentModalSize.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
 		6C95ABF227F55A8300D24D58 /* Dataflow */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,8 +219,25 @@
 		6C98D53B27F962F6008BA017 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				6C98D53C27F9632B008BA017 /* NavigationWithButton.swift */,
+				6C98D53E27F9638B008BA017 /* PassDataView.swift */,
+				6C98D54027F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift */,
+				6C98D54227F96D93008BA017 /* AddBarItemButtons.swift */,
+				6C98D54427F96F08008BA017 /* NavigationTitleWithImage.swift */,
+				6C98D54627F96F45008BA017 /* ColorNavigationBar.swift */,
+				6C98D54827F96FD6008BA017 /* Pagination.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6C98D54A27F97003008BA017 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				6C98D54B27F97012008BA017 /* MyPreview.swift */,
+				6C98D54D27F97E46008BA017 /* ViewController.swift */,
+				6C98D54F27F9A85F008BA017 /* MySampleView.swift */,
+			);
+			path = Previews;
 			sourceTree = "<group>";
 		};
 		6CBEEAD927F94D5600B88F91 /* Graphics */ = {
@@ -189,6 +254,7 @@
 				6C98D53527F960BE008BA017 /* RatingView.swift */,
 				6C98D53727F961E4008BA017 /* BlurEffect.swift */,
 				6C98D53927F96255008BA017 /* VisualEffectView.swift */,
+				6CA0887527F9B51500D1195A /* SpecificCornerRadius.swift */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -213,6 +279,11 @@
 		6CE81C6127F1457E006BFB6F /* SwiftuILists */ = {
 			isa = PBXGroup;
 			children = (
+				6CECF64F27FE3FA3002D7AE4 /* Camera */,
+				6CECF64627FE3B72002D7AE4 /* Picker */,
+				6CECF64327FE377A002D7AE4 /* SwiftUI-UIKit */,
+				6C8893D627FA06B90081AD2F /* Sheets */,
+				6C98D54A27F97003008BA017 /* Previews */,
 				6C98D53B27F962F6008BA017 /* Navigation */,
 				6CBEEAD927F94D5600B88F91 /* Graphics */,
 				6C95ABF227F55A8300D24D58 /* Dataflow */,
@@ -271,6 +342,32 @@
 				6C5676AF27F41C71006CD310 /* TagViews.swift */,
 			);
 			path = Grid;
+			sourceTree = "<group>";
+		};
+		6CECF64327FE377A002D7AE4 /* SwiftUI-UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF64427FE37C0002D7AE4 /* ExampleViewController.swift */,
+			);
+			path = "SwiftUI-UIKit";
+			sourceTree = "<group>";
+		};
+		6CECF64627FE3B72002D7AE4 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF64727FE3BB1002D7AE4 /* BasicPickerView.swift */,
+				6CECF64927FE3C1E002D7AE4 /* MultiColumnPicker.swift */,
+				6CECF64B27FE3E92002D7AE4 /* SegmentedControlView.swift */,
+				6CECF64D27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		6CECF64F27FE3FA3002D7AE4 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,16 +449,21 @@
 				6C5676A127F3F3F2006CD310 /* FlexibleRowGrid.swift in Sources */,
 				6C5676AC27F41A40006CD310 /* GeometryEffectZoom.swift in Sources */,
 				6CE81D0027F1A981006BFB6F /* GroupedList.swift in Sources */,
+				6C98D54127F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift in Sources */,
 				6C5676A327F3F459006CD310 /* AdaptableGrid.swift in Sources */,
 				6CE81D0827F1ACB9006BFB6F /* FilteringResults.swift in Sources */,
 				6C5676B027F41C71006CD310 /* TagViews.swift in Sources */,
 				6CE81D1627F1B498006BFB6F /* CheckBoxList.swift in Sources */,
+				6C98D54927F96FD6008BA017 /* Pagination.swift in Sources */,
 				6CE81D0427F1AB63006BFB6F /* LazyVStackList.swift in Sources */,
 				6CE81C7827F147A1006BFB6F /* AddRemoveMove.swift in Sources */,
+				6C98D53D27F9632B008BA017 /* NavigationWithButton.swift in Sources */,
 				6CBEEAD627F94A8E00B88F91 /* ImageLoaderView.swift in Sources */,
 				6C98D53027F94FC0008BA017 /* SwiftUIShapes.swift in Sources */,
 				6CE81D1027F1B092006BFB6F /* SelectMultipleItem.swift in Sources */,
 				6C95ABEB27F555C900D24D58 /* RotateView.swift in Sources */,
+				6C8893DC27FA08800081AD2F /* DifferentModalSize.swift in Sources */,
+				6C98D54C27F97012008BA017 /* MyPreview.swift in Sources */,
 				6CBEEADB27F94D6200B88F91 /* LinearGradientView.swift in Sources */,
 				6CBEEADD27F94DD700B88F91 /* RadialGradientView.swift in Sources */,
 				6C5676A527F4039D006CD310 /* PushInViews.swift in Sources */,
@@ -370,9 +472,14 @@
 				6C56769F27F3F388006CD310 /* FixedSizeGrid.swift in Sources */,
 				6CE81D1827F1B5AB006BFB6F /* RadioButtonList.swift in Sources */,
 				6C98D52C27F94F00008BA017 /* RoundedCornersView.swift in Sources */,
+				6C8893D827FA06D00081AD2F /* SheetSample.swift in Sources */,
 				6CBEEADF27F94E4200B88F91 /* AngularGradientView.swift in Sources */,
 				6C5676A727F415FF006CD310 /* HeroAnimation.swift in Sources */,
+				6CECF64C27FE3E92002D7AE4 /* SegmentedControlView.swift in Sources */,
+				6CECF64827FE3BB1002D7AE4 /* BasicPickerView.swift in Sources */,
+				6C98D54727F96F45008BA017 /* ColorNavigationBar.swift in Sources */,
 				6CE81D0627F1AC09006BFB6F /* PullToRefresh.swift in Sources */,
+				6C98D54527F96F08008BA017 /* NavigationTitleWithImage.swift in Sources */,
 				6CE81D0C27F1AF62006BFB6F /* AutoScrollList.swift in Sources */,
 				6CE81D0E27F1AFC0006BFB6F /* SwipeAction.swift in Sources */,
 				6CE81C7227F145D3006BFB6F /* ListWithRangeOperator.swift in Sources */,
@@ -380,21 +487,30 @@
 				6C98D53627F960BE008BA017 /* RatingView.swift in Sources */,
 				6C5676AA27F41931006CD310 /* GeometryEffectFlip.swift in Sources */,
 				6C95ABF627F55B9D00D24D58 /* GlobalState.swift in Sources */,
+				6C8893DA27FA07990081AD2F /* MultipleSheet.swift in Sources */,
 				6C98D53A27F96255008BA017 /* VisualEffectView.swift in Sources */,
 				6CBEEAD427F9499A00B88F91 /* ListenToNotificationChanges.swift in Sources */,
+				6CECF64A27FE3C1E002D7AE4 /* MultiColumnPicker.swift in Sources */,
 				6CE81C7627F1468F006BFB6F /* ListWithIndices.swift in Sources */,
 				6CBEEAD227F9490100B88F91 /* OnChangeView.swift in Sources */,
 				6C95ABF427F55A8C00D24D58 /* Bindings.swift in Sources */,
+				6CECF64527FE37C0002D7AE4 /* ExampleViewController.swift in Sources */,
 				6CBEEAD827F94CCB00B88F91 /* AppStorageView.swift in Sources */,
 				6CE81C6527F1457E006BFB6F /* ContentView.swift in Sources */,
 				6C98D52E27F94F31008BA017 /* RoundedCorerWithClipShape.swift in Sources */,
 				6C95ABF127F5580B00D24D58 /* ThreeDimensionalRotationEffect.swift in Sources */,
+				6C98D53F27F9638B008BA017 /* PassDataView.swift in Sources */,
 				6C5676AE27F41B2F006CD310 /* MyHeroAnimation.swift in Sources */,
 				6CE81C6327F1457E006BFB6F /* SwiftuIListsApp.swift in Sources */,
 				6CE81C7427F14613006BFB6F /* ListWithCustomObject.swift in Sources */,
+				6C98D54E27F97E46008BA017 /* ViewController.swift in Sources */,
+				6CA0887627F9B51500D1195A /* SpecificCornerRadius.swift in Sources */,
 				6C98D53427F95E5E008BA017 /* BarChartView.swift in Sources */,
 				6CBEEAD027F9489100B88F91 /* OptionalBindingView.swift in Sources */,
+				6C98D54327F96D93008BA017 /* AddBarItemButtons.swift in Sources */,
+				6C98D55027F9A85F008BA017 /* MySampleView.swift in Sources */,
 				6CE81D0A27F1AEB7006BFB6F /* ClickableWholeRow.swift in Sources */,
+				6CECF64E27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
