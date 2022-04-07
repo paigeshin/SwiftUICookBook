@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C227EBF27FF56A100002CBB /* TimeLineViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C227EBE27FF56A100002CBB /* TimeLineViewExample.swift */; };
+		6C227EC127FF571700002CBB /* SearchableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C227EC027FF571700002CBB /* SearchableViewExample.swift */; };
+		6C227EC327FF584E00002CBB /* CreateActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C227EC227FF584E00002CBB /* CreateActions.swift */; };
+		6C227EC527FF58EF00002CBB /* BlurViewWithMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C227EC427FF58EF00002CBB /* BlurViewWithMaterial.swift */; };
+		6C227EC827FF5BA300002CBB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C227EC727FF5BA300002CBB /* DrawingView.swift */; };
 		6C56769F27F3F388006CD310 /* FixedSizeGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C56769E27F3F388006CD310 /* FixedSizeGrid.swift */; };
 		6C5676A127F3F3F2006CD310 /* FlexibleRowGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676A027F3F3F2006CD310 /* FlexibleRowGrid.swift */; };
 		6C5676A327F3F459006CD310 /* AdaptableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676A227F3F459006CD310 /* AdaptableGrid.swift */; };
-		6C5676A527F4039D006CD310 /* PushInViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676A427F4039D006CD310 /* PushInViews.swift */; };
 		6C5676A727F415FF006CD310 /* HeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676A627F415FF006CD310 /* HeroAnimation.swift */; };
 		6C5676AA27F41931006CD310 /* GeometryEffectFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676A927F41931006CD310 /* GeometryEffectFlip.swift */; };
 		6C5676AC27F41A40006CD310 /* GeometryEffectZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5676AB27F41A40006CD310 /* GeometryEffectZoom.swift */; };
@@ -80,13 +84,29 @@
 		6CECF64A27FE3C1E002D7AE4 /* MultiColumnPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64927FE3C1E002D7AE4 /* MultiColumnPicker.swift */; };
 		6CECF64C27FE3E92002D7AE4 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64B27FE3E92002D7AE4 /* SegmentedControlView.swift */; };
 		6CECF64E27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF64D27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift */; };
+		6CECF66B27FF359D002D7AE4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF66A27FF359D002D7AE4 /* ImagePicker.swift */; };
+		6CECF66E27FF3828002D7AE4 /* BasicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF66D27FF3828002D7AE4 /* BasicMap.swift */; };
+		6CECF67027FF3B99002D7AE4 /* MyMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF66F27FF3B99002D7AE4 /* MyMapAnnotation.swift */; };
+		6CECF67227FF3CD7002D7AE4 /* MapCustomAnnoatation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF67127FF3CD7002D7AE4 /* MapCustomAnnoatation.swift */; };
+		6CECF67427FF3F02002D7AE4 /* ShowUserCurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF67327FF3F02002D7AE4 /* ShowUserCurrentLocation.swift */; };
+		6CECF67627FF4167002D7AE4 /* ChangeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF67527FF4167002D7AE4 /* ChangeMap.swift */; };
+		6CECF67827FF4357002D7AE4 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF67727FF4357002D7AE4 /* LoadingIndicatorView.swift */; };
+		6CECF6E827FF4CA6002D7AE4 /* HelloCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF6E627FF4CA6002D7AE4 /* HelloCoreDataModel.xcdatamodeld */; };
+		6CECF6EA27FF4D0E002D7AE4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF6E927FF4D0E002D7AE4 /* CoreDataManager.swift */; };
+		6CECF6EC27FF4D92002D7AE4 /* CoreDataCrudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF6EB27FF4D92002D7AE4 /* CoreDataCrudView.swift */; };
+		6CECF6F027FF5542002D7AE4 /* MyAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF6EF27FF5542002D7AE4 /* MyAsyncImage.swift */; };
+		6CECF6F227FF55C9002D7AE4 /* PullToRefreshExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECF6F127FF55C9002D7AE4 /* PullToRefreshExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C227EBE27FF56A100002CBB /* TimeLineViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewExample.swift; sourceTree = "<group>"; };
+		6C227EC027FF571700002CBB /* SearchableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableViewExample.swift; sourceTree = "<group>"; };
+		6C227EC227FF584E00002CBB /* CreateActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActions.swift; sourceTree = "<group>"; };
+		6C227EC427FF58EF00002CBB /* BlurViewWithMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewWithMaterial.swift; sourceTree = "<group>"; };
+		6C227EC727FF5BA300002CBB /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		6C56769E27F3F388006CD310 /* FixedSizeGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeGrid.swift; sourceTree = "<group>"; };
 		6C5676A027F3F3F2006CD310 /* FlexibleRowGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleRowGrid.swift; sourceTree = "<group>"; };
 		6C5676A227F3F459006CD310 /* AdaptableGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptableGrid.swift; sourceTree = "<group>"; };
-		6C5676A427F4039D006CD310 /* PushInViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushInViews.swift; sourceTree = "<group>"; };
 		6C5676A627F415FF006CD310 /* HeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimation.swift; sourceTree = "<group>"; };
 		6C5676A927F41931006CD310 /* GeometryEffectFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectFlip.swift; sourceTree = "<group>"; };
 		6C5676AB27F41A40006CD310 /* GeometryEffectZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectZoom.swift; sourceTree = "<group>"; };
@@ -157,6 +177,18 @@
 		6CECF64927FE3C1E002D7AE4 /* MultiColumnPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnPicker.swift; sourceTree = "<group>"; };
 		6CECF64B27FE3E92002D7AE4 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
 		6CECF64D27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlWithEnum.swift; sourceTree = "<group>"; };
+		6CECF66A27FF359D002D7AE4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6CECF66D27FF3828002D7AE4 /* BasicMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMap.swift; sourceTree = "<group>"; };
+		6CECF66F27FF3B99002D7AE4 /* MyMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapAnnotation.swift; sourceTree = "<group>"; };
+		6CECF67127FF3CD7002D7AE4 /* MapCustomAnnoatation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCustomAnnoatation.swift; sourceTree = "<group>"; };
+		6CECF67327FF3F02002D7AE4 /* ShowUserCurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserCurrentLocation.swift; sourceTree = "<group>"; };
+		6CECF67527FF4167002D7AE4 /* ChangeMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMap.swift; sourceTree = "<group>"; };
+		6CECF67727FF4357002D7AE4 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		6CECF6E727FF4CA6002D7AE4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6CECF6E927FF4D0E002D7AE4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6CECF6EB27FF4D92002D7AE4 /* CoreDataCrudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCrudView.swift; sourceTree = "<group>"; };
+		6CECF6EF27FF5542002D7AE4 /* MyAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAsyncImage.swift; sourceTree = "<group>"; };
+		6CECF6F127FF55C9002D7AE4 /* PullToRefreshExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +202,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C227EC627FF596D00002CBB /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				6C227EC727FF5BA300002CBB /* DrawingView.swift */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
 		6C5676A827F41929006CD310 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,7 +302,6 @@
 		6CE81C5627F1457E006BFB6F = {
 			isa = PBXGroup;
 			children = (
-				6C5676A427F4039D006CD310 /* PushInViews.swift */,
 				6CE81C6127F1457E006BFB6F /* SwiftuILists */,
 				6CE81C6027F1457E006BFB6F /* Products */,
 			);
@@ -279,6 +318,10 @@
 		6CE81C6127F1457E006BFB6F /* SwiftuILists */ = {
 			isa = PBXGroup;
 			children = (
+				6C227EC627FF596D00002CBB /* Drawing */,
+				6CECF6EE27FF5527002D7AE4 /* IOS15 */,
+				6CECF6E527FF4A28002D7AE4 /* Coredata */,
+				6CECF66C27FF381C002D7AE4 /* Map */,
 				6CECF64F27FE3FA3002D7AE4 /* Camera */,
 				6CECF64627FE3B72002D7AE4 /* Picker */,
 				6CECF64327FE377A002D7AE4 /* SwiftUI-UIKit */,
@@ -348,6 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				6CECF64427FE37C0002D7AE4 /* ExampleViewController.swift */,
+				6CECF67727FF4357002D7AE4 /* LoadingIndicatorView.swift */,
 			);
 			path = "SwiftUI-UIKit";
 			sourceTree = "<group>";
@@ -366,8 +410,44 @@
 		6CECF64F27FE3FA3002D7AE4 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				6CECF66A27FF359D002D7AE4 /* ImagePicker.swift */,
 			);
 			path = Camera;
+			sourceTree = "<group>";
+		};
+		6CECF66C27FF381C002D7AE4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF66D27FF3828002D7AE4 /* BasicMap.swift */,
+				6CECF66F27FF3B99002D7AE4 /* MyMapAnnotation.swift */,
+				6CECF67127FF3CD7002D7AE4 /* MapCustomAnnoatation.swift */,
+				6CECF67327FF3F02002D7AE4 /* ShowUserCurrentLocation.swift */,
+				6CECF67527FF4167002D7AE4 /* ChangeMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		6CECF6E527FF4A28002D7AE4 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF6E627FF4CA6002D7AE4 /* HelloCoreDataModel.xcdatamodeld */,
+				6CECF6E927FF4D0E002D7AE4 /* CoreDataManager.swift */,
+				6CECF6EB27FF4D92002D7AE4 /* CoreDataCrudView.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		6CECF6EE27FF5527002D7AE4 /* IOS15 */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF6EF27FF5542002D7AE4 /* MyAsyncImage.swift */,
+				6CECF6F127FF55C9002D7AE4 /* PullToRefreshExampleView.swift */,
+				6C227EBE27FF56A100002CBB /* TimeLineViewExample.swift */,
+				6C227EC027FF571700002CBB /* SearchableViewExample.swift */,
+				6C227EC227FF584E00002CBB /* CreateActions.swift */,
+				6C227EC427FF58EF00002CBB /* BlurViewWithMaterial.swift */,
+			);
+			path = IOS15;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +522,7 @@
 			files = (
 				6C5676B327F42047006CD310 /* MagnifyView.swift in Sources */,
 				6CE81D1D27F1B886006BFB6F /* PinnedView.swift in Sources */,
+				6CECF6F027FF5542002D7AE4 /* MyAsyncImage.swift in Sources */,
 				6C95ABEF27F5566E00D24D58 /* DragView.swift in Sources */,
 				6C98D53827F961E4008BA017 /* BlurEffect.swift in Sources */,
 				6C95ABF827F8221000D24D58 /* GeometryCard.swift in Sources */,
@@ -451,8 +532,11 @@
 				6CE81D0027F1A981006BFB6F /* GroupedList.swift in Sources */,
 				6C98D54127F9643B008BA017 /* ProgrammaticallyPerformNavigation.swift in Sources */,
 				6C5676A327F3F459006CD310 /* AdaptableGrid.swift in Sources */,
+				6C227EC327FF584E00002CBB /* CreateActions.swift in Sources */,
 				6CE81D0827F1ACB9006BFB6F /* FilteringResults.swift in Sources */,
+				6C227EC527FF58EF00002CBB /* BlurViewWithMaterial.swift in Sources */,
 				6C5676B027F41C71006CD310 /* TagViews.swift in Sources */,
+				6CECF6EC27FF4D92002D7AE4 /* CoreDataCrudView.swift in Sources */,
 				6CE81D1627F1B498006BFB6F /* CheckBoxList.swift in Sources */,
 				6C98D54927F96FD6008BA017 /* Pagination.swift in Sources */,
 				6CE81D0427F1AB63006BFB6F /* LazyVStackList.swift in Sources */,
@@ -461,13 +545,16 @@
 				6CBEEAD627F94A8E00B88F91 /* ImageLoaderView.swift in Sources */,
 				6C98D53027F94FC0008BA017 /* SwiftUIShapes.swift in Sources */,
 				6CE81D1027F1B092006BFB6F /* SelectMultipleItem.swift in Sources */,
+				6CECF66B27FF359D002D7AE4 /* ImagePicker.swift in Sources */,
 				6C95ABEB27F555C900D24D58 /* RotateView.swift in Sources */,
 				6C8893DC27FA08800081AD2F /* DifferentModalSize.swift in Sources */,
 				6C98D54C27F97012008BA017 /* MyPreview.swift in Sources */,
 				6CBEEADB27F94D6200B88F91 /* LinearGradientView.swift in Sources */,
 				6CBEEADD27F94DD700B88F91 /* RadialGradientView.swift in Sources */,
-				6C5676A527F4039D006CD310 /* PushInViews.swift in Sources */,
+				6CECF67227FF3CD7002D7AE4 /* MapCustomAnnoatation.swift in Sources */,
 				6CE81D1427F1B2EC006BFB6F /* InfiniteScrolling.swift in Sources */,
+				6C227EC827FF5BA300002CBB /* DrawingView.swift in Sources */,
+				6C227EC127FF571700002CBB /* SearchableViewExample.swift in Sources */,
 				6CE81D1227F1B15D006BFB6F /* CollapsibleHeader.swift in Sources */,
 				6C56769F27F3F388006CD310 /* FixedSizeGrid.swift in Sources */,
 				6CE81D1827F1B5AB006BFB6F /* RadioButtonList.swift in Sources */,
@@ -475,6 +562,7 @@
 				6C8893D827FA06D00081AD2F /* SheetSample.swift in Sources */,
 				6CBEEADF27F94E4200B88F91 /* AngularGradientView.swift in Sources */,
 				6C5676A727F415FF006CD310 /* HeroAnimation.swift in Sources */,
+				6CECF6E827FF4CA6002D7AE4 /* HelloCoreDataModel.xcdatamodeld in Sources */,
 				6CECF64C27FE3E92002D7AE4 /* SegmentedControlView.swift in Sources */,
 				6CECF64827FE3BB1002D7AE4 /* BasicPickerView.swift in Sources */,
 				6C98D54727F96F45008BA017 /* ColorNavigationBar.swift in Sources */,
@@ -484,8 +572,12 @@
 				6CE81D0E27F1AFC0006BFB6F /* SwipeAction.swift in Sources */,
 				6CE81C7227F145D3006BFB6F /* ListWithRangeOperator.swift in Sources */,
 				6CE81D0227F1AA7C006BFB6F /* BackgroundList.swift in Sources */,
+				6C227EBF27FF56A100002CBB /* TimeLineViewExample.swift in Sources */,
+				6CECF67627FF4167002D7AE4 /* ChangeMap.swift in Sources */,
 				6C98D53627F960BE008BA017 /* RatingView.swift in Sources */,
 				6C5676AA27F41931006CD310 /* GeometryEffectFlip.swift in Sources */,
+				6CECF67427FF3F02002D7AE4 /* ShowUserCurrentLocation.swift in Sources */,
+				6CECF67827FF4357002D7AE4 /* LoadingIndicatorView.swift in Sources */,
 				6C95ABF627F55B9D00D24D58 /* GlobalState.swift in Sources */,
 				6C8893DA27FA07990081AD2F /* MultipleSheet.swift in Sources */,
 				6C98D53A27F96255008BA017 /* VisualEffectView.swift in Sources */,
@@ -498,6 +590,7 @@
 				6CBEEAD827F94CCB00B88F91 /* AppStorageView.swift in Sources */,
 				6CE81C6527F1457E006BFB6F /* ContentView.swift in Sources */,
 				6C98D52E27F94F31008BA017 /* RoundedCorerWithClipShape.swift in Sources */,
+				6CECF6F227FF55C9002D7AE4 /* PullToRefreshExampleView.swift in Sources */,
 				6C95ABF127F5580B00D24D58 /* ThreeDimensionalRotationEffect.swift in Sources */,
 				6C98D53F27F9638B008BA017 /* PassDataView.swift in Sources */,
 				6C5676AE27F41B2F006CD310 /* MyHeroAnimation.swift in Sources */,
@@ -510,6 +603,9 @@
 				6C98D54327F96D93008BA017 /* AddBarItemButtons.swift in Sources */,
 				6C98D55027F9A85F008BA017 /* MySampleView.swift in Sources */,
 				6CE81D0A27F1AEB7006BFB6F /* ClickableWholeRow.swift in Sources */,
+				6CECF67027FF3B99002D7AE4 /* MyMapAnnotation.swift in Sources */,
+				6CECF66E27FF3828002D7AE4 /* BasicMap.swift in Sources */,
+				6CECF6EA27FF4D0E002D7AE4 /* CoreDataManager.swift in Sources */,
 				6CECF64E27FE3EF4002D7AE4 /* SegmentedControlWithEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +740,9 @@
 				DEVELOPMENT_TEAM = 35W7TZ9DUM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = hello;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = hello;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please accept";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -673,6 +772,9 @@
 				DEVELOPMENT_TEAM = 35W7TZ9DUM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = hello;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = hello;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please accept";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -713,6 +815,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CECF6E627FF4CA6002D7AE4 /* HelloCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CECF6E727FF4CA6002D7AE4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6CECF6E727FF4CA6002D7AE4 /* Model.xcdatamodel */;
+			path = HelloCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6CE81C5727F1457E006BFB6F /* Project object */;
 }
